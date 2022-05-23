@@ -104,3 +104,15 @@ class Data_Viz:
         # Calculate percentage of missing values
         print("The dataset contains", round(
             ((totalMissing/totalCells) * 100), 2), "%", "missing values.")
+    def plot_hist(df:pd.DataFrame, column:str, color:str)->None:
+        sns.displot(data=df, x=column, color=color, height=7, aspect=2)
+        plt.title(f'Distribution of {column}', size=20, fontweight='bold')
+        plt.xticks(rotation=90)
+        plt.show()
+
+    def plot_count(df:pd.DataFrame, column:str) -> None:
+        plt.figure(figsize=(12, 7))
+        sns.countplot(data=df, x=column)
+        plt.xticks(rotation=90)
+        plt.title(f'Distribution of {column}', size=20, fontweight='bold')
+        plt.show()
