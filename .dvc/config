@@ -1,0 +1,5 @@
+[core]
+    remote = data_week3
+    autostage = true
+['remote "data_week3"']
+    url = gdrive://1DrEeiKGpcN55VUuEsfq2WV91OiZy2Q5J
