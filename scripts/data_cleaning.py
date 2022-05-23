@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
 from regex import D
-from data_vizualization import Data_Viz;
-
+from scripts.data_vizualization import Data_Viz;
 
 class DataCleaner:
     """
