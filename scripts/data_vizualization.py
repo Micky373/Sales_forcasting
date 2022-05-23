@@ -60,14 +60,14 @@ class Data_Viz:
         ax.set_title(title)
 
 
-    def showDistribution(self, df, cols, colors):
+    def showDistribution(self, df, cols):
         """
         Distribution plotting function.
         """
         for index in range(len(cols)):
             plt.style.use('fivethirtyeight')
             plt.figure(figsize=(8, 4)) 
-            sns.displot(data=df, x=cols[index], color=colors[index], kde=True, height=4, aspect=2)
+            sns.displot(data=df, x=cols[index], kde=True, height=4, aspect=2)
             plt.title(f'Distribution of '+cols[index]+' data volume', size=20, fontweight='bold')
             plt.show()
 
