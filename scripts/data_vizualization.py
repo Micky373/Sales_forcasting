@@ -124,3 +124,4 @@ class Data_Viz:
             sns.barplot(x=x_ax[i], y=y_ax[i], data=dfs[i], ax=axes[i]).set_title(titles[i])
 
         plt.show()
+    
