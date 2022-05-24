@@ -116,3 +116,11 @@ class Data_Viz:
         plt.xticks(rotation=90)
         plt.title(f'Distribution of {column}', size=20, fontweight='bold')
         plt.show()
+    def plot_bar(self, x_ax, y_ax, dfs, titles, axes ):
+        """
+        plots bar charts
+        """
+        for i in range(len(axes)):
+            sns.barplot(x=x_ax[i], y=y_ax[i], data=dfs[i], ax=axes[i]).set_title(titles[i])
+
+        plt.show()
