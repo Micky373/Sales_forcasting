@@ -152,3 +152,9 @@ class DataCleaner:
         for col in cols:
             df[col] = df[col].fillna(method='bfill')
         return df
+    def convert_to_datetime(self,df,cols):
+        """
+        Changing the columns into date time format
+        """
+        for col in cols:
+            df[col] = pd.to_datetime(df[col])
