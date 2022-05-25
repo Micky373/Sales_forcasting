@@ -1,3 +1,4 @@
+import imp
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -5,6 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import FunctionTransformer
+from scripts.data_cleaning import logger
 
 class DataTransformer:
     """
@@ -12,6 +14,9 @@ class DataTransformer:
     """
     def __init__(self) -> None:
         pass
+
+        logger.info('Function DataTransformer successfully added!!!')
+        
 
 
     def sep_cat_num(self, df):
@@ -21,7 +26,10 @@ class DataTransformer:
         categorical_columns = df.select_dtypes(include='object')
         numerical_columns = df.select_dtypes(exclude='object')
 
+        logger.info('Separating catagorical and numerical variables successfuly done!!!')
+
         return categorical_columns, numerical_columns
+
 
     
     def cat_labeler(self, df, cat_cols):
@@ -34,6 +42,8 @@ class DataTransformer:
         
         print("catagories successfully labeled")
 
+        logger.info('Labeling the catagorical columns using label encoder successfuly done!!!')
+
         return df
 
 
@@ -45,6 +55,8 @@ class DataTransformer:
         df[:] = scaling.fit_transform(df[:])
 
         print("Data successfully scaled")
+
+        logger.info('Scaling the data successfuly done!!!')
         
         return df
 
@@ -59,6 +71,8 @@ class DataTransformer:
 
         print("Data successfully normalized")
 
+        logger.info('Normalizing the data successfuly done!!!')
+
         return scaled
 
     def target_feature(self, df, f_r, t):
@@ -69,6 +83,8 @@ class DataTransformer:
         target = df.iloc[:,t].values
         
         print("target and features separated")
+
+        logger.info('Separating target features successfuly done!!!')
 
         return features, target
 
@@ -84,5 +100,6 @@ class DataTransformer:
 
         print("data successfully splitted")
 
+        logger.info('Splitting successfuly done!!!')
 
         return [x_train, y_train, x_test, y_test, x_val, y_val]
