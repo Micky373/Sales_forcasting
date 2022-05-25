@@ -27,7 +27,7 @@ class Data_Viz:
             # show plot
             plt.show()
 
-        logger.info('Box plotting successfuly done!!!')
+        logger.info('Box1 plotting successfuly done!!!')
 
     def plot_box2(self, df:pd.DataFrame, col:str)->None:
         """
@@ -39,7 +39,7 @@ class Data_Viz:
         # show plot
         plt.show()
 
-        logger.info('Box plotting successfuly done!!!')
+        logger.info('Box2 plotting successfuly done!!!')
 
     def plot_pie(self, df, col, title):
         """
