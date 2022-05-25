@@ -60,3 +60,5 @@ time: 2022-05-25 17:22:21,774, function: __init__, module: scripts.cleaning_logg
 
 time: 2022-05-25 17:27:48,757, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
 
+time: 2022-05-25 17:30:06,453, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
