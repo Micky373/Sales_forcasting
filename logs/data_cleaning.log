@@ -33,32 +33,3 @@ time: 2022-05-25 13:46:33,451, function: fill_missing_by_median, module: scripts
 time: 2022-05-25 13:47:07,960, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
 
 time: 2022-05-25 13:47:07,961, function: fill_outliers_mean, module: scripts.cleaning_logger, message: Filing outliers successfuly completed!!! 
-
-time: 2022-05-25 15:41:59,208, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 15:42:48,708, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 15:42:48,708, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
-
-time: 2022-05-25 15:51:26,709, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 15:51:26,710, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
-
-time: 2022-05-25 15:54:04,037, function: DataTransformer, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
-
-time: 2022-05-25 15:54:04,038, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 15:58:23,224, function: DataTransformer, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
-
-time: 2022-05-25 15:58:23,224, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 16:00:18,656, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 17:02:23,981, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 17:22:21,774, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 17:27:48,757, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
-time: 2022-05-25 17:30:06,453, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
-
