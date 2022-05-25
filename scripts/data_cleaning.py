@@ -1,7 +1,9 @@
+import imp
 import pandas as pd
 import numpy as np
 from regex import D
 from scripts.data_vizualization import Data_Viz;
+from scripts.cleaning_logger import logger
 
 class DataCleaner:
     """
@@ -9,7 +11,8 @@ class DataCleaner:
     """
     def __init__(self) -> None:
         self.summar = Data_Viz() 
-
+        logger.info('Function DataCleaner succesfully added!!!')         
+    
 
     def fill_outliers_mean(self, df, cols):
         df_temp = df.copy(deep=True)
