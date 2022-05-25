@@ -1,0 +1,80 @@
+time: 2022-05-25 16:00:18,655, function: DataTransformer, module: scripts.transformation_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-25 16:19:42,703, function: sep_cat_num, module: scripts.transformation_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-25 16:20:04,723, function: sep_cat_num, module: scripts.transformation_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-25 16:41:22,824, function: sep_cat_num, module: scripts.transformation_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-25 17:02:23,981, function: DataTransformer, module: scripts.transformation_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-25 17:02:40,873, function: sep_cat_num, module: scripts.transformation_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-25 17:22:21,773, function: DataTransformer, module: scripts.transformation_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-25 17:22:29,722, function: sep_cat_num, module: scripts.transformation_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-25 17:25:15,556, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:25:16,143, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:27:34,389, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:27:34,984, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:27:48,756, function: DataTransformer, module: scripts.transformation_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-25 17:27:56,758, function: sep_cat_num, module: scripts.transformation_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-25 17:28:01,620, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:28:02,407, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:28:02,440, function: target_feature, module: scripts.transformation_logger, message: target and features separated 
+
+time: 2022-05-25 17:28:02,441, function: target_feature, module: scripts.transformation_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-25 17:28:20,690, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:28:22,622, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:28:22,710, function: target_feature, module: scripts.transformation_logger, message: target and features separated 
+
+time: 2022-05-25 17:28:22,710, function: target_feature, module: scripts.transformation_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-25 17:30:06,453, function: DataTransformer, module: scripts.transformation_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-25 17:30:15,251, function: sep_cat_num, module: scripts.transformation_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-25 17:30:25,142, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:30:26,896, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:30:26,985, function: target_feature, module: scripts.transformation_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-25 17:34:23,035, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:34:25,093, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:34:25,185, function: target_feature, module: scripts.transformation_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-25 17:35:04,235, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:35:05,939, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:35:06,028, function: target_feature, module: scripts.transformation_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-25 17:35:24,846, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:35:27,002, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:35:27,110, function: target_feature, module: scripts.transformation_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-25 17:41:45,037, function: cat_labeler, module: scripts.transformation_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-25 17:41:46,981, function: scaler, module: scripts.transformation_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-25 17:41:47,064, function: target_feature, module: scripts.transformation_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-25 17:41:47,430, function: set_splitter, module: scripts.transformation_logger, message: Splitting successfuly done!!! 
+

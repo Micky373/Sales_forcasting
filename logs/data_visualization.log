@@ -18,5 +18,4 @@ time: 2022-05-25 13:47:07,924, function: summ_columns, module: scripts.visualiza
 
 time: 2022-05-25 13:47:10,554, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
 
-time: 2022-05-25 13:47:11,015, function: plot_box2, module: scripts.visualization_logger, message: Box plotting successfuly done!!! 
-
+time: 2022-05-25 13:47:11,015, function: plot_box2, module: scripts.visualization_logger, message: Box plotting successfuly done!!

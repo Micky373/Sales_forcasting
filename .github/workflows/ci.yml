@@ -1,0 +1,29 @@
+name: data visualizations
+on: pull_request
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: iterative/setup-cml@v1
+      - name: create visualization reports
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # basic description of the plots
+          echo '# Basic data visualizations' >> report.md
+          # Post reports as comments in GitHub PRs
+          echo '## Average sales analysis' >> report.md
+          cml publish charts/average_sales_analysis.jpg --md >> report.md
+          echo "## Correlation heatmap" >> report.md
+          cml publish charts/correlation_heatmap.jpg --md >> report.md
+          echo "## Customer vs week visualization" >> report.md
+          cml publish charts/customer_vs_week_viz.jpg --md >> report.md
+          echo "## Feature importance" >> report.md
+          cml publish charts/rf_feature_imp.jpg --md >> report.md
+          echo "## Sales vs all corelation" >> report.md
+          cml publish charts/sales_vs_all_corr.jpg --md >> report.md
+          echo "## Sales vs promotion" >> report.md
+          cml publish charts/sales_vs_promotion.jpg --md >> report.md
+          cml send-comment report.md
