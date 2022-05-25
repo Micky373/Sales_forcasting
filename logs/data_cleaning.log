@@ -1,0 +1,36 @@
+time: 2022-05-25 13:26:51,292, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-25 13:27:31,939, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:28:07,138, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:28:07,139, function: fill_outliers_mean, module: scripts.cleaning_logger, message: Filing outliers successfuly completed!!! 
+
+time: 2022-05-25 13:28:10,350, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:28:14,122, function: fill_missing_by_mode, module: scripts.cleaning_logger, message: Fill missing by successfully done!!! 
+
+time: 2022-05-25 13:28:48,515, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:29:24,907, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:29:24,908, function: fill_outliers_mean, module: scripts.cleaning_logger, message: Filing outliers successfuly completed!!! 
+
+time: 2022-05-25 13:44:40,565, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-25 13:45:19,712, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:45:53,553, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:45:53,553, function: fill_outliers_mean, module: scripts.cleaning_logger, message: Filing outliers successfuly completed!!! 
+
+time: 2022-05-25 13:45:56,617, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:45:59,970, function: fill_missing_by_mode, module: scripts.cleaning_logger, message: Fill missing by successfully done!!! 
+
+time: 2022-05-25 13:46:33,451, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:47:07,960, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
+
+time: 2022-05-25 13:47:07,961, function: fill_outliers_mean, module: scripts.cleaning_logger, message: Filing outliers successfuly completed!!! 
+
