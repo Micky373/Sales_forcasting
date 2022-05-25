@@ -6,18 +6,17 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import FunctionTransformer
-from scripts.data_cleaning import logger
+from scripts.transformation_logger import logger
 
 class DataTransformer:
     """
     provides transformer functions for machine learning.
     """
+
+    logger.info('Function DataTransformer successfully added!!!')
+    
     def __init__(self) -> None:
         pass
-
-        logger.info('Function DataTransformer successfully added!!!')
-        
-
 
     def sep_cat_num(self, df):
         """
