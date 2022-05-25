@@ -1,5 +1,8 @@
+from ctypes.wintypes import tagRECT
 import imp
+from pyexpat import features
 import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.pipeline import Pipeline
@@ -74,11 +77,11 @@ class DataTransformer:
 
         return scaled
 
-    def target_feature(self, df, f_r, t):
+    def target_feature(self, df,t):
         """
         target and feature separator
         """
-        features = df.iloc[:,f_r[0]:f_r[1]].values
+        features = (df.drop(df.columns[[t]], axis = 1)).values
         target = df.iloc[:,t].values
         
         print("target and features separated")
@@ -102,3 +105,4 @@ class DataTransformer:
         logger.info('Splitting successfuly done!!!')
 
         return [x_train, y_train, x_test, y_test, x_val, y_val]
+    

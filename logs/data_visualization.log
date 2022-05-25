@@ -38,3 +38,15 @@ time: 2022-05-25 16:00:18,455, function: Data_Viz, module: scripts.visualization
 
 time: 2022-05-25 16:00:26,439, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
 
+time: 2022-05-25 17:02:22,365, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-25 17:02:39,966, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
+time: 2022-05-25 17:22:21,590, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-25 17:22:28,712, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
+time: 2022-05-25 17:27:48,577, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-25 17:27:55,841, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
