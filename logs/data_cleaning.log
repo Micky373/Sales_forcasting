@@ -1,0 +1,6 @@
+time: 2022-05-27 21:48:04,919, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 21:48:04,920, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 21:48:35,152, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+

@@ -1,0 +1,4 @@
+time: 2022-05-27 21:48:04,401, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-27 21:48:25,515, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
