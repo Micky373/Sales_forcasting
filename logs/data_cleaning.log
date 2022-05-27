@@ -4,3 +4,11 @@ time: 2022-05-27 21:48:04,920, function: __init__, module: scripts.cleaning_logg
 
 time: 2022-05-27 21:48:35,152, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
 
+time: 2022-05-27 21:49:03,462, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 21:49:04,015, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 21:49:04,041, function: target_feature, module: scripts.cleaning_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-27 21:49:04,528, function: set_splitter, module: scripts.cleaning_logger, message: Splitting successfuly done!!! 
+
