@@ -53,3 +53,17 @@ time: 2022-05-27 17:02:45,192, function: __init__, module: scripts.cleaning_logg
 
 time: 2022-05-27 17:03:03,358, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
 
+time: 2022-05-27 17:04:20,277, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 17:04:20,278, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 17:04:36,337, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-27 17:11:39,437, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:11:40,894, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 17:16:51,370, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:16:52,731, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
