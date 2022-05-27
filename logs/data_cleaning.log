@@ -12,3 +12,7 @@ time: 2022-05-27 21:49:04,041, function: target_feature, module: scripts.cleanin
 
 time: 2022-05-27 21:49:04,528, function: set_splitter, module: scripts.cleaning_logger, message: Splitting successfuly done!!! 
 
+time: 2022-05-27 22:24:43,786, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 22:24:43,787, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
