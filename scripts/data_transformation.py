@@ -75,13 +75,13 @@ class DataTransformer:
 
         return scaled
 
-    def target_feature(self, df, f_r, t):
+    def target_feature(self, df,t):
         """
         target and feature separator
         """
-        features = df.iloc[:,f_r[0]:f_r[1]].values
+        features = (df.drop(df.columns[[t]], axis = 1)).values
         target = df.iloc[:,t].values
-        
+
         print("target and features separated")
 
         logger.info('Separating target features successfuly done!!!')

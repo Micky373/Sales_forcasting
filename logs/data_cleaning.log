@@ -33,3 +33,23 @@ time: 2022-05-25 13:46:33,451, function: fill_missing_by_median, module: scripts
 time: 2022-05-25 13:47:07,960, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
 
 time: 2022-05-25 13:47:07,961, function: fill_outliers_mean, module: scripts.cleaning_logger, message: Filing outliers successfuly completed!!! 
+time: 2022-05-27 16:54:41,677, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 16:56:07,149, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 16:56:23,454, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 16:56:23,454, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 16:56:55,025, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-27 17:02:39,961, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 17:02:39,961, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 17:02:45,192, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 17:02:45,192, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 17:03:03,358, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
