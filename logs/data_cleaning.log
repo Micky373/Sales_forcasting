@@ -33,3 +33,89 @@ time: 2022-05-25 13:46:33,451, function: fill_missing_by_median, module: scripts
 time: 2022-05-25 13:47:07,960, function: fill_missing_by_median, module: scripts.cleaning_logger, message: Filling missing by median successfully done!!! 
 
 time: 2022-05-25 13:47:07,961, function: fill_outliers_mean, module: scripts.cleaning_logger, message: Filing outliers successfuly completed!!! 
+time: 2022-05-27 16:54:41,677, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 16:56:07,149, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 16:56:23,454, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 16:56:23,454, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 16:56:55,025, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-27 17:02:39,961, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 17:02:39,961, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 17:02:45,192, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 17:02:45,192, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 17:03:03,358, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-27 17:04:20,277, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 17:04:20,278, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 17:04:36,337, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-27 17:11:39,437, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:11:40,894, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 17:16:51,370, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:16:52,731, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 17:17:20,953, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 17:17:20,953, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 17:17:37,127, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-27 17:18:04,649, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:18:05,925, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 17:18:06,017, function: target_feature, module: scripts.cleaning_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-27 17:18:06,340, function: set_splitter, module: scripts.cleaning_logger, message: Splitting successfuly done!!! 
+
+time: 2022-05-27 17:18:47,299, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:18:48,586, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 17:18:48,646, function: target_feature, module: scripts.cleaning_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-27 17:18:48,860, function: set_splitter, module: scripts.cleaning_logger, message: Splitting successfuly done!!! 
+
+time: 2022-05-27 17:19:25,077, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:19:26,356, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 17:19:26,434, function: target_feature, module: scripts.cleaning_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-27 17:19:26,678, function: set_splitter, module: scripts.cleaning_logger, message: Splitting successfuly done!!! 
+
+time: 2022-05-27 17:21:31,312, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:21:31,770, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 17:21:31,796, function: target_feature, module: scripts.cleaning_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-27 17:21:31,871, function: set_splitter, module: scripts.cleaning_logger, message: Splitting successfuly done!!! 
+
+time: 2022-05-27 17:46:55,558, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-27 17:46:55,558, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-27 17:47:10,988, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-27 17:47:19,946, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-27 17:47:20,423, function: scaler, module: scripts.cleaning_logger, message: Scaling the data successfuly done!!! 
+
+time: 2022-05-27 17:47:20,449, function: target_feature, module: scripts.cleaning_logger, message: Separating target features successfuly done!!! 
+
+time: 2022-05-27 17:47:20,523, function: set_splitter, module: scripts.cleaning_logger, message: Splitting successfuly done!!! 
+
