@@ -46,3 +46,17 @@ time: 2022-05-27 23:23:12,796, function: summ_columns, module: scripts.visualiza
 
 time: 2022-05-27 23:23:13,540, function: plot_line, module: scripts.visualization_logger, message: Line plotting successfuly done!!! 
 
+time: 2022-05-27 23:58:27,057, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-27 23:59:02,555, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
+time: 2022-05-27 23:59:04,271, function: plot_line, module: scripts.visualization_logger, message: Line plotting successfuly done!!! 
+
+time: 2022-05-28 00:11:17,447, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-28 00:14:05,820, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-28 00:14:12,573, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
+time: 2022-05-28 00:14:13,291, function: plot_line, module: scripts.visualization_logger, message: Line plotting successfuly done!!! 
+
