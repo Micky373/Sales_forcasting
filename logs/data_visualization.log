@@ -37,3 +37,7 @@ time: 2022-05-27 17:04:20,258, function: Data_Viz, module: scripts.visualization
 
 time: 2022-05-27 17:04:26,738, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
 
+time: 2022-05-27 17:17:20,930, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-27 17:17:27,891, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
