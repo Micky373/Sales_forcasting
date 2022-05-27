@@ -1,4 +1,6 @@
 from statsmodels.tsa.stattools import adfuller
+import numpy as np
+import matplotlib.pyplot as plt
 
 # using variance and mean to check stationarity
 
@@ -24,3 +26,13 @@ def check_stationary_adf(df, col, title):
     print(f'ADF Statistic: {adfResult[0]}')
     print(f'p-value: {adfResult[1]}')
     return adfResult
+
+# Creating a correlation graph 
+
+def corrPlots(array: np.array, prefix: str):
+    plt.figure(figsize=(30, 5))
+    plt.title(f"{prefix}  Autocorrelations of Sales")
+    plt.bar(range(len(array)), array)
+    plt.grid(True)
+    plt.show()
+    plt.savefig('../charts/'+str(prefix)+'.jpg')
