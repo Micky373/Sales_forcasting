@@ -1,10 +1,9 @@
 import tensorflow as tf
 
-def windowed_dataset(series, window_size, batch_size): 
-  series = tf.expand_dims(series, axis=-1)
-  dataset = tf.data.Dataset.from_tensor_slices(series)
-  dataset = dataset.window(window_size + 1, shift=1, drop_remainder=True) 
-  dataset = dataset.flat_map(lambda window: window.batch(window_size + 1))
-  dataset = dataset.map(lambda window: (window[:-1], window[-1:]))
-  dataset = dataset.batch(batch_size).prefetch(1)
-  return dataset
+def model_forecast(model, series, window_size,size):
+  ds = tf.data.Dataset.from_tensor_slices(series)
+  ds = ds.window(window_size, shift=1, drop_remainder=True) 
+  ds = ds.flat_map(lambda w: w.batch(window_size))
+  ds = ds.batch(size).prefetch(1)
+  forecast = model.predict(ds)
+  return forecast
