@@ -90,3 +90,9 @@ time: 2022-05-28 00:52:35,155, function: summ_columns, module: scripts.visualiza
 
 time: 2022-05-28 00:52:35,944, function: plot_line, module: scripts.visualization_logger, message: Line plotting successfuly done!!! 
 
+time: 2022-05-28 00:58:36,853, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-28 00:58:43,974, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
+time: 2022-05-28 00:58:44,822, function: plot_line, module: scripts.visualization_logger, message: Line plotting successfuly done!!! 
+
