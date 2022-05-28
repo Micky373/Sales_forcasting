@@ -2,7 +2,7 @@
 
 ## Live demo to the project result
 
-- [Streamlit](#)
+- [Streamlit](https://share.streamlit.io/micky373/sales_forcasting/main/app.py)
 
 ## Wireframe link for the dashboard
 
