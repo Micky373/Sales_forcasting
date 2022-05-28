@@ -1,7 +1,7 @@
 pandas
 streamlit5
 matplotlib 
-seaborn1.1 
+seaborn 
 pandas 
 sklearn
 tensorflow
