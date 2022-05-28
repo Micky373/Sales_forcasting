@@ -43,12 +43,12 @@ pip install -r requirements.txt
 
 ### Data Exploration
   - Data cleaning is done in the data_cleaning.ipynb
+  - Data exploration is done in the data_exploration.ipynb
+  - Data preprocessing and ml modeling is done in the data_preprocessing_and_ml_modeling.ipynb
+  - Deep learning modeling is done in the deep_learning_modeling.ipynb
   
 ### Scripts
  - All the scripts used by the notebooks are inside the scripts folder.
 
 ### Test
  - Tests for the scripts are inside the tests folder.
-
-### Travis CI
-  - The file .travis.yml contains the configuration for Travis.
