@@ -1,0 +1,10 @@
+time: 2022-05-28 12:33:32,025, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-28 12:33:58,741, function: summ_columns, module: scripts.visualization_logger, message: Summing columns successfuly done!!! 
+
+time: 2022-05-28 12:34:03,884, function: plot_line, module: scripts.visualization_logger, message: Line plotting successfuly done!!! 
+
+time: 2022-05-28 13:51:09,586, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
+time: 2022-05-28 13:59:03,947, function: Data_Viz, module: scripts.visualization_logger, message: Data vizualization function succesfully initialized!!! 
+
