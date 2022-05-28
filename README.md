@@ -6,7 +6,7 @@
 
 ## Wireframe link for the dashboard
 
-- [Wireframing_using_figma]('https://www.figma.com/file/s8YwKjDZq05UYq4rMqJF0t/Low-fidelity-wireframe?node-id=0%3A1')
+- [Wireframing_using_figma](https://www.figma.com/file/s8YwKjDZq05UYq4rMqJF0t/Low-fidelity-wireframe?node-id=0%3A1)
 
 **Table of content**
 
