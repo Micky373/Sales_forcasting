@@ -4,9 +4,10 @@ from apps import dataset_display,model_accuracy_display # import your app module
 
 app = MultiApp()
 
-st.sidebar.markdown('# **A/B testing for SmartAd BIO**')
+st.sidebar.markdown('# **Pharmaceutical Sales forcasting**')
 st.sidebar.markdown("""
-The repo is all about A/B testing by using two groups the exposed and control group. The exposed group were given the smart ad about brand LUX where as the control groups were given some dummy ad about the brand LUX. Classical and Statistical A/B testing has been used to test. After all the tests our aim is to increase the efficiency of our BIO (Brand Impact Optimization)
+The aim of this project is to predict the sales six weeks ahead across all the stores of the Rossman Pharmaceutical company using Machine and Deep Learning. The different factors affecting the sales are: promotions, competitions, school-state holiday, seasonality, and locality.
+
 """)
 
 # Add all your application here
