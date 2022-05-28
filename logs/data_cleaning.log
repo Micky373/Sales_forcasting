@@ -68,3 +68,11 @@ time: 2022-05-28 00:58:37,002, function: __init__, module: scripts.cleaning_logg
 
 time: 2022-05-28 00:58:37,003, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
 
+time: 2022-05-28 01:32:51,034, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-28 01:32:51,034, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-28 09:43:06,114, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-28 09:43:06,124, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
