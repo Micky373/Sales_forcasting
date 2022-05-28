@@ -4,22 +4,17 @@ import pandas as pd
 def app():
     st.title('In this page we display all the datasets')
     
-    st.title('**This is the `Chrome browser users` dataset**')
-    df = pd.read_csv('./data/chrome_data.csv')
-    st.write(df)
+    with st.spinner("Loading Data ..."):
+        st.markdown("<p style='padding:2rem;text-align:center; background-color:#3761B5;color:#FFFFFF;font-size:2rem;border-radius:1rem;'>Data Display</p>", unsafe_allow_html=True)
+     
+        st.write("""
+        The data contains historical sales data for 1,115 Rossmann stores. 
+        """)
+        st.markdown("The data and feature description for this challenge can be found [here](https://www.kaggle.com/c/rossmann-store-sales)")
+ 
 
-    st.title('**This is the `Chrome mobile view browser users` dataset**')
-    df = pd.read_csv('./data/chrome_mobile_webView_data.csv')
-    st.write(df)
-
-    st.title('**This is the `Facebook users` dataset**')
-    df = pd.read_csv('./data/facebook_data.csv')
-    st.write(df)
-
-    st.title('**This is the `Platform 6 users` dataset**')
-    df = pd.read_csv('./data/platform_5.csv')
-    st.write(df)
-
-    st.title('**This is the `Platform 5 users` dataset**')
-    df = pd.read_csv('./data/platform_6.csv')
-    st.write(df)
+        train = pd.read_csv('train.csv')
+        store = pd.read_csv('store.csv')
+        merged_train = pd.merge(left = train, right = store, how = 'inner', left_on = 'Store', right_on = 'Store')
+        merged_train = merged_train.set_index('Store')
+        st.write(merged_train)
