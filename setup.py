@@ -12,8 +12,8 @@ requirements = ['pandas>=1.1.0', 'numpy>=1.19.0', ]
 test_requirements = ['pytest>=3', ]
 
 setup(
-    author="10 Academy",
-    email="train@10academy.org",
+    author="Michael Tamirie",
+    email="michaeltamirie@gmail.com",
     python_requires='>=3.6',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="A Repository structure for all your project",
+    description="A Repository for time series sales forcasting",
     install_requires=requirements,
     long_description=readme,
     include_package_data=True,
@@ -33,7 +33,7 @@ setup(
     packages=find_packages(include=['scripts', 'scripts.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/10xac/PythonPackageStructure',
-    version='0.1.0',
+    url='https://github.com/Micky373/Sales_forcasting',
+    version='0.0.1',
     zip_safe=False,
 )
