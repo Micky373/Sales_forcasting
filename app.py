@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import dataset_display,model_accuracy_display # import your app modules here
+from apps import dataset_display,home_page,insight,predict_query,prediction_display # import your app modules here
 
 app = MultiApp()
 
@@ -12,6 +12,9 @@ The aim of this project is to predict the sales six weeks ahead across all the s
 
 # Add all your application here
 app.add_app("Data sets", dataset_display.app)
-app.add_app("Model and accuracies", model_accuracy_display.app)
+app.add_app("Home page", home_page.app)
+app.add_app("Insights", insight.app)
+app.add_app("Predicting page", predict_query.app)
+app.add_app("Prediction display", prediction_display.app)
 # The main app
 app.run()
