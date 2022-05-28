@@ -148,3 +148,11 @@ class Data_Viz:
 
         logger.info('Bar plotting successfuly done!!!')
     
+    def plot_line(self, df, x, y, figsize, title, name):
+        plt.figure(figsize=(figsize[0],figsize[1]))
+        sns.lineplot(x = x, y=y, data=df)
+        plt.title(title)
+        plt.savefig("../charts/"+name)
+        plt.show()
+
+        logger.info('Line plotting successfuly done!!!')
