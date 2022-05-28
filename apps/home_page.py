@@ -1,11 +1,17 @@
 import streamlit as st
 
 def app():
-    st.title('In this page we display all the model\'s accuracy')
-
-    st.title('The accuracy of our logistic regression model')
-    st.image('https://miro.medium.com/max/700/0*qsNLyfWDUcCnOA-i.png')
-    st.title('The accuracy of our XG Boost model')
-    st.image('https://miro.medium.com/max/700/0*HRwlbEkugI5XLWis.png')
-    st.title('The accuracy of our Random Forest model')
-    st.image('https://miro.medium.com/max/680/0*p6ScB4W_o1C6DuLw.png')
+    with st.spinner("Loading Home ..."):
+        
+        st.markdown("<p style='padding:2rem;text-align:center; background-color:#3761B5;color:#FFFFFF;font-size:1.8rem;border-radius:0.8rem;'>Rossmann Pharmaceuticals</p>", unsafe_allow_html=True)
+    
+        st.write(
+            """
+            Dirk Rossmann GmbH (usual: Rossmann) is one of the largest drug store chains in Europe with around 56,200 employees and more than 4000 stores across Europe.
+                """
+        )
+        st.image('./home.jpg', use_column_width=True)
+        st.write("""
+        
+         This app is an end-to-end solution that allows the Rosemann pharmaceutical company to see sales forecasts for its stores six weeks in advance, as well as expected trends.
+         """)
