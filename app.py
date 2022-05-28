@@ -11,8 +11,8 @@ The aim of this project is to predict the sales six weeks ahead across all the s
 """)
 
 # Add all your application here
-app.add_app("Data sets", dataset_display.app)
 app.add_app("Home page", home_page.app)
+app.add_app("Data sets", dataset_display.app)
 app.add_app("Insights", insight.app)
 app.add_app("Predicting page", predict_query.app)
 app.add_app("Prediction display", prediction_display.app)

@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from datetime import datetime
+import numpy as np
+import datetime
 
 def app():
     with st.spinner("Loading Home ..."):
@@ -8,7 +9,7 @@ def app():
         st.markdown("<p style='padding:2rem;text-align:center; background-color:#3761B5;color:#FFFFFF;font-size:1.8rem;border-radius:0.8rem;'>Prediction display</p>", unsafe_allow_html=True)
     
         # read the data
-        data = pd.read_csv('prediction_data.csv', index_col = 'Date')
+        data = pd.read_csv('./data/prediction_data.csv', index_col = 'Date')
 
        
         st.sidebar.subheader('Enter date ranges')
