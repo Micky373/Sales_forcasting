@@ -1,0 +1,26 @@
+time: 2022-05-28 12:33:34,245, function: __init__, module: scripts.cleaning_logger, message: Function DataCleaner successfully added!!! 
+
+time: 2022-05-28 12:33:34,245, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-28 13:51:15,223, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-28 13:51:23,582, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-28 13:52:54,159, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-28 13:53:09,057, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-28 13:53:16,523, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-28 13:53:59,606, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-28 13:54:05,217, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-28 13:59:03,949, function: __init__, module: scripts.cleaning_logger, message: Function DataTransformer successfully added!!! 
+
+time: 2022-05-28 13:59:11,436, function: sep_cat_num, module: scripts.cleaning_logger, message: Separating catagorical and numerical variables successfuly done!!! 
+
+time: 2022-05-28 13:59:14,279, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
+time: 2022-05-28 14:00:38,272, function: cat_labeler, module: scripts.cleaning_logger, message: Labeling the catagorical columns using label encoder successfuly done!!! 
+
