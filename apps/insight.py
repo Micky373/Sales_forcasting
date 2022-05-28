@@ -5,4 +5,4 @@ def app():
         
         st.markdown("<p style='padding:2rem;text-align:center; background-color:#3761B5;color:#FFFFFF;font-size:1.8rem;border-radius:0.8rem;'>Insights inferred from the data</p>", unsafe_allow_html=True)
     
-        st.markdown("<p style='font-size:1.8rem'>The data has a lot of useful features that can provide insights into the stores sales. Based on the exploratory data analysis conducted, the following conclusions can be made:The number of customers is directly related to the volume of sales.</p>", unsafe_allow_html=True)
+        st.markdown("<p style='font-size:1.8rem'>The data has a number of important attributes that can be used to get insight into retail sales. The following conclusions can be drawn based on the exploratory data analysis: The volume of sales is proportional to the number of clients.</p>", unsafe_allow_html=True)
